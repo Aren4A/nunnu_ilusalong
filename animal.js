@@ -10,7 +10,7 @@ var animateButton = function(e) {
     },700);
   };
   
-  var bubblyButtons = document.getElementsByClassName("bubbly-button");
+  var bubblyButtons = document.getElementsById("bubbly-button");
   
   for (var i = 0; i < bubblyButtons.length; i++) {
     bubblyButtons[i].addEventListener('click', animateButton, false);
@@ -27,7 +27,7 @@ function changeAnimal() {
             imageHeight: 200,
             imageAlt: 'Custom image',
                   })
-    } else if (elem === "jänesed"){
+    } else if (elem === "jänesed" || elem === "Jänesed"){
         Swal.fire({
             title: 'Jänesed',
             text: 'Sulle meeldivad jänesed!',
@@ -36,7 +36,7 @@ function changeAnimal() {
             imageHeight: 500,
             imageAlt: 'Custom image',
                   })
-    }else if (elem === "rotid"){
+    }else if (elem === "rotid" || elem === "Rotid"){
         Swal.fire({
             title: 'Rotid',
             text: 'Sulle meeldivad rotid!',
@@ -45,7 +45,7 @@ function changeAnimal() {
             imageHeight: 500,
             imageAlt: 'Custom image',
                   })
-    } else if (elem === "hamstrid"){
+    } else if (elem === "hamstrid" || elem === "Hamstrid"){
         Swal.fire({
             title: 'Hamstrid',
             text: 'Sulle meeldivad hamstrid!',
@@ -54,7 +54,7 @@ function changeAnimal() {
             imageHeight: 500,
             imageAlt: 'Custom image',
                   })
-    } else if (elem === "kapibaarad"){
+    } else if (elem === "kapibaarad" || elem === "Kapibaarad"){
         Swal.fire({
             title: 'Kapibaarad',
             text: 'Sulle meeldivad kapibaarad!',
@@ -63,7 +63,7 @@ function changeAnimal() {
             imageHeight: 500,
             imageAlt: 'Custom image',
                   })
-    } else if (elem === "koprad"){
+    } else if (elem === "koprad" || elem === "Koprad"){
         Swal.fire({
             title: 'Koprad',
             text: 'Sulle meeldivad koprad!',
@@ -72,7 +72,7 @@ function changeAnimal() {
             imageHeight: 500,
             imageAlt: 'Custom image',
                   })
-    } else if (elem === "oravad"){
+    } else if (elem === "oravad" || elem === "Oravad"){
         Swal.fire({
             title: 'Oravad',
             text: 'Sulle meeldivad oravad!',
@@ -82,7 +82,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-    else if (elem === "kaelkirjakud"){
+    else if (elem === "kaelkirjakud" || elem === "Kaelkirjakud"){
         Swal.fire({
             title: 'Kaelkirjakud',
             text: 'Sulle meeldivad kaelkirjakud!',
@@ -92,7 +92,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-    else if (elem === "elevandid"){
+    else if (elem === "elevandid" || elem === "Elevandid"){
         Swal.fire({
             title: 'Elevandid',
             text: 'Sulle meeldivad elevandid!',
@@ -102,7 +102,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "tiigrid"){
+            else if (elem === "tiigrid" || elem === "Tiigrid"){
         Swal.fire({
             title: 'Tiigrid',
             text: 'Sulle meeldivad ttigrid!',
@@ -112,7 +112,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "hobused"){
+            else if (elem === "hobused" || elem === "Hobused"){
         Swal.fire({
             title: 'Hobused',
             text: 'Sulle meeldivad hobused!',
@@ -122,7 +122,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "kassid" || elem === "kass"){
+            else if (elem === "kassid" || elem === "Kassid"){
         Swal.fire({
             title: 'Kassid',
             text: 'Sulle meeldivad kassid!',
@@ -132,7 +132,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "koerad"){
+            else if (elem === "koerad" || elem === "Koerad"){
         Swal.fire({
             title: 'Koerad',
             text: 'Sulle meeldivad koerad, oled hea inimene!',
@@ -142,7 +142,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lambad"){
+            else if (elem === "lambad" || elem === "Lambad"){
         Swal.fire({
             title: 'Lambad',
             text: 'Sulle meeldivad lambad!',
@@ -152,7 +152,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "leopardid"){
+            else if (elem === "leopardid" || elem === "Leopardid"){
         Swal.fire({
             title: 'Leopardid',
             text: 'Sulle meeldivad leopardid!',
@@ -162,7 +162,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "kanad"){
+            else if (elem === "kanad" || elem === "Kanad"){
         Swal.fire({
             title: 'Kanad',
             text: 'Sulle meeldivad kanad!',
@@ -172,7 +172,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "vaalad"){
+            else if (elem === "vaalad" || elem === "Vaalad"){
         Swal.fire({
             title: 'vaalad',
             text: 'Sulle meeldivad vaalad!',
@@ -182,7 +182,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lehmad"){
+            else if (elem === "lehmad" || elem === "Lehmad"){
         Swal.fire({
             title: 'Lehmad',
             text: 'Sulle meeldivad lehmad!',
@@ -192,7 +192,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "sead"){
+            else if (elem === "sead" || elem === "Sead"){
         Swal.fire({
             title: 'Sead',
             text: 'Sulle meeldivad sead!',
@@ -202,7 +202,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "nahkhiired"){
+            else if (elem === "nahkhiired" || elem === "Nahkhiired"){
         Swal.fire({
             title: 'nahkhiired',
             text: 'Sulle meeldivad nahkhiired!',
@@ -212,7 +212,7 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lambad"){
+            else if (elem === "lambad" || elem === "Lambad"){
         Swal.fire({
             title: 'Lambad',
             text: 'Sulle meeldivad lambad!',
@@ -222,31 +222,31 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lambad"){
+            else if (elem === "krokodillid" || elem === "Krokodillid"){
         Swal.fire({
-            title: 'Lambad',
-            text: 'Sulle meeldivad lambad!',
-            imageUrl: 'https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg?auto=compress&cs=tinysrgb&w=600',
+            title: 'Krokodillid',
+            text: 'Sulle meeldivad krokodillid!',
+            imageUrl: 'https://images.pexels.com/photos/792358/pexels-photo-792358.jpeg?auto=compress&cs=tinysrgb&w=600',
             imageWidth: 400,
             imageHeight: 500,
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lambad"){
+            else if (elem === "rebased" || elem === "Rebased"){
         Swal.fire({
-            title: 'Lambad',
-            text: 'Sulle meeldivad lambad!',
-            imageUrl: 'https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg?auto=compress&cs=tinysrgb&w=600',
+            title: 'Rebased',
+            text: 'Sulle meeldivad rebased, rebased on ilusad',
+            imageUrl: 'https://images.pexels.com/photos/2121799/pexels-photo-2121799.jpeg?auto=compress&cs=tinysrgb&w=600',
             imageWidth: 400,
             imageHeight: 500,
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lambad"){
+            else if (elem === "hundid" || elem === "Hundid"){
         Swal.fire({
-            title: 'Lambad',
-            text: 'Sulle meeldivad lambad!',
-            imageUrl: 'https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg?auto=compress&cs=tinysrgb&w=600',
+            title: 'Hundid',
+            text: 'Sulle meeldivad hundid!',
+            imageUrl: 'https://images.pexels.com/photos/918596/pexels-photo-918596.jpeg?auto=compress&cs=tinysrgb&w=600',
             imageWidth: 400,
             imageHeight: 500,
             imageAlt: 'Custom image',

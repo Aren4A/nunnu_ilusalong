@@ -3,62 +3,70 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1 {
-    color: rgb(3, 61, 3);
-    font-size: 60px;
-    z-index: 1;
-}
+
 
 body {
     background-color: rgb(52, 176, 52);
     text-align: center;
 }
+
+.logo {
+  height:5vw;
+}
+
 #animal {
     height: 50px;
     width: 300px;
-    font-size: 40px;
+    font-size: 100%;
     background: linear-gradient(21deg, #ff0c0c, #eb05c1);
     color: rgb(24, 71, 12);
-    margin-top: 100px;
+    margin-top: 60px;
+}
+.title-container {
+    display: grid;
+    grid-template-columns: 10.5% 78% 10.5%;
+    grid-gap: 5px;
+    font-size: 6vw;
+    color: rgb(3, 61, 3);
+    font-weight: bold;
+    font-family: cursive;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 11% 26% 26% 26% 11%;
+    grid-template-columns: 10% 26% 26% 26% 10%;
+    grid-gap: 0.5%;
   }
 .grid-item {
-    font-size: 50px;
+
+    font-size: 3.8vw;
     font-family:cursive;
   }
 
 .header {
-    color: rgb(3, 61, 3);
-    font-size: 60px;
-    font-family: cursive;
     display: grid;
-    grid-template-columns: 18% 18% 28% 18% 18%;
-    height: 20pxpx;
-    text-align: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100%;
 }
 
-.title {
-    text-align: center;
-    z-index: 1000;
-}
+
 .mainimg {
-    height: 550px;
-    width: 400px;
+    height: 40vw;
 }
 
 .smallimg {
-    height: 400px;
+    height:15vw;
 }
-
+h1 {
+  font-size: 3vw;
+  font-family:cursive;
+}
 
 .container {
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
+   
 }
 .item-list {
     display: flex;
@@ -88,13 +96,13 @@ img {
 }
 
 .millised {
-    width: 300px;
+    width: 220px;
+    height: 70px;
     font-size: 40px;
     color: rgb(14, 240, 229);
-    padding: 1em 2em;
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 60px;
-    text-align:left;
 }
 
 
@@ -113,12 +121,12 @@ img {
     }
 }
 
-.bubbly-button {
+#bubbly-button {
     font-family: "Helvetica", "Arial", sans-serif;
     display: inline-block;
     font-size: 1em;
     padding: 1em 2em;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-bottom: 200px;
     -webkit-appearance: none;
     appearance: none;
@@ -131,10 +139,10 @@ img {
     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
     box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
   }
-  .bubbly-button:focus {
+  #bubbly-button:focus {
     outline: 0;
   }
-  .bubbly-button:before, .bubbly-button:after {
+  #bubbly-button:before, .bubbly-button:after {
     position: absolute;
     content: "";
     display: block;
@@ -145,28 +153,28 @@ img {
     transition: all ease-in-out 0.5s;
     background-repeat: no-repeat;
   }
-  .bubbly-button:before {
+  #bubbly-button:before {
     display: none;
     top: -75%;
     background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ff0081 20%, transparent 30%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
     background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
   }
-  .bubbly-button:after {
+  #bubbly-button:after {
     display: none;
     bottom: -75%;
     background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
     background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
   }
-  .bubbly-button:active {
+  #bubbly-button:active {
     transform: scale(0.9);
     background-color: #e60074;
     box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
   }
-  .bubbly-button.animate:before {
+  #bubbly-button.animate:before {
     display: block;
     animation: topBubbles ease-in-out 0.75s forwards;
   }
-  .bubbly-button.animate:after {
+  #bubbly-button.animate:after {
     display: block;
     animation: bottomBubbles ease-in-out 0.75s forwards;
   }

@@ -18,10 +18,10 @@ var animateButton = function(e) {
 
 function changeAnimal() {
     const elem = document.getElementById('animal').value;
-    if (elem === "hiired") {
+    if (elem === "hiired" || elem === "Hiired") {
         Swal.fire({
             title: 'Hiired',
-            text: 'Sulle meeldivad hiired!',
+            text: 'Sulle meeldivad hiired, hiired on nunnud',
             imageUrl: 'https://www.woodlandtrust.org.uk/media/50820/house-mouse-wtml-1062551-amy-lewis.jpg',
             imageWidth: 400,
             imageHeight: 200,

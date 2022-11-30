@@ -29,7 +29,7 @@ body {
     font-size: 6vw;
     color: rgb(3, 61, 3);
     font-weight: bold;
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .grid-container {
@@ -40,7 +40,7 @@ body {
 .grid-item {
 
     font-size: 3.8vw;
-    font-family:cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
 .header {
@@ -59,7 +59,7 @@ body {
 }
 h1 {
   font-size: 3vw;
-  font-family:cursive;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {

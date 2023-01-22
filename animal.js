@@ -142,11 +142,11 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lambad" || elem === "Lambad"){
+            else if (elem === "Leevikesed" || elem === "leevikesed"){
         Swal.fire({
-            title: 'Lambad',
-            text: 'Sulle meeldivad lambad!',
-            imageUrl: 'https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg?auto=compress&cs=tinysrgb&w=600',
+            title: 'Leevikesed',
+            text: 'Sulle meeldivad leevikesed on ta isane või emane?',
+            imageUrl: 'https://images.pexels.com/photos/34781/bullfinch-bird-sitting-tree.jpg?auto=compress&cs=tinysrgb&w=600',
             imageWidth: 400,
             imageHeight: 500,
             imageAlt: 'Custom image',
@@ -212,11 +212,11 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
-            else if (elem === "lambad" || elem === "Lambad"){
+            else if (elem === "Tihased" || elem === "tihased"){
         Swal.fire({
-            title: 'Lambad',
-            text: 'Sulle meeldivad lambad!',
-            imageUrl: 'https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg?auto=compress&cs=tinysrgb&w=600',
+            title: 'Tihased',
+            text: 'Sulle meeldivad tihased!',
+            imageUrl: 'https://media.istockphoto.com/id/1286187386/photo/two-chickadee-birds-sit-on-a-tree-branch-in-winter-close-up-selective-focus.jpg?b=1&s=612x612&w=0&k=20&c=voYMXbe9IQF64oT3xT-fmeNDa_j8SMc257i7p7sScnQ=',
             imageWidth: 400,
             imageHeight: 500,
             imageAlt: 'Custom image',
@@ -252,6 +252,187 @@ function changeAnimal() {
             imageAlt: 'Custom image',
                   })
                          }
+            else if (elem === "lambad" || elem === "Lambad"){
+        Swal.fire({
+            title: 'Lambad',
+            text: 'Sulle meeldivad lambad!',
+            imageUrl: 'https://images.pexels.com/photos/1331394/pexels-photo-1331394.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "põdrad" || elem === "Põdrad"){
+        Swal.fire({
+            title: 'Põdrad',
+            text: 'Sulle meeldivad põdrad, põder on meie metsade suurim loom.',
+            imageUrl: 'https://images.pexels.com/photos/76972/moose-moose-rack-male-bull-76972.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+             else if (elem === "metskitsed" || elem === "Metskitsed"){
+        Swal.fire({
+            title: 'Metskitsed',
+            text: 'Sulle meeldivad metskitsed!',
+            imageUrl: 'https://images.pexels.com/photos/4168489/pexels-photo-4168489.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "mägrad" || elem === "Mägrad"){
+        Swal.fire({
+            title: 'Mägrad',
+            text: 'Sulle meeldivad mägrad!',
+            imageUrl: 'https://images.pexels.com/photos/10830792/pexels-photo-10830792.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "kährikud" || elem === "Kährikud"){
+        Swal.fire({
+            title: 'Kährikud',
+            text: 'Sulle meeldivad kährikud!',
+            imageUrl: 'https://images.pexels.com/photos/6468055/pexels-photo-6468055.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "pesukarud" || elem === "Pesukarud"){
+        Swal.fire({
+            title: 'Pesukarud',
+            text: 'Sulle meeldivad pesukarud!',
+            imageUrl: 'https://images.pexels.com/photos/14770560/pexels-photo-14770560.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "nirgid" || elem === "Nirgid"){
+        Swal.fire({
+            title: 'Nirgid',
+            text: 'Sulle meeldivad nirgid!',
+            imageUrl: 'https://images.pexels.com/photos/10140097/pexels-photo-10140097.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "pandad" || elem === "Pandad"){
+        Swal.fire({
+            title: 'Pandad',
+            text: 'Sulle meeldivad pandad!',
+            imageUrl: 'https://images.pexels.com/photos/12924572/pexels-photo-12924572.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "prunkarud" || elem === "Prunkarud"){
+        Swal.fire({
+            title: 'Prunkarud',
+            text: 'Sulle meeldivad prunkarud!',
+            imageUrl: 'https://images.pexels.com/photos/14681549/pexels-photo-14681549.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "jääkaru" || elem === "Jääkaru"){
+        Swal.fire({
+            title: 'Jääkaru',
+            text: 'Sulle meeldivad jääkaru!',
+            imageUrl: 'https://images.pexels.com/photos/53425/polar-bear-arctic-wildlife-snow-53425.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "prilkarud" || elem === "Prilkarud"){
+        Swal.fire({
+            title: 'Prilkarud',
+            text: 'Sulle meeldivad prilkarud!',
+            imageUrl: 'https://images.pexels.com/photos/7183267/pexels-photo-7183267.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "hakid" || elem === "Hakid"){
+        Swal.fire({
+            title: 'Hakid',
+            text: 'Sulle meeldivad hakid!',
+            imageUrl: 'https://images.pexels.com/photos/132433/pexels-photo-132433.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "pardid" || elem === "Pardid"){
+        Swal.fire({
+            title: 'Pardid',
+            text: 'Sulle meeldivad pardid!',
+            imageUrl: 'https://images.pexels.com/photos/235915/pexels-photo-235915.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "kalkunid" || elem === "Kalkunid"){
+        Swal.fire({
+            title: 'Kalkunid',
+            text: 'Sulle meeldivad kalkunid!',
+            imageUrl: 'https://images.pexels.com/photos/917595/pexels-photo-917595.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "haned" || elem === "Haned"){
+        Swal.fire({
+            title: 'Haned',
+            text: 'Sulle meeldivad haned!',
+            imageUrl: 'https://images.pexels.com/photos/8933253/pexels-photo-8933253.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "hundid" || elem === "Hundid"){
+        Swal.fire({
+            title: 'Hundid',
+            text: 'Sulle meeldivad hundid!',
+            imageUrl: 'https://images.pexels.com/photos/918596/pexels-photo-918596.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "hundid" || elem === "Hundid"){
+        Swal.fire({
+            title: 'Hundid',
+            text: 'Sulle meeldivad hundid!',
+            imageUrl: 'https://images.pexels.com/photos/918596/pexels-photo-918596.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }
+            else if (elem === "hundid" || elem === "Hundid"){
+        Swal.fire({
+            title: 'Hundid',
+            text: 'Sulle meeldivad hundid!',
+            imageUrl: 'https://images.pexels.com/photos/918596/pexels-photo-918596.jpeg?auto=compress&cs=tinysrgb&w=600',
+            imageWidth: 400,
+            imageHeight: 500,
+            imageAlt: 'Custom image',
+                  })
+                         }             
+
 
     else {
         alert("See loom ei ole kahjuks valikus")
